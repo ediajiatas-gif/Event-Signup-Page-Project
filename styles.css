@@ -1,27 +1,28 @@
 body {
-    background: url(assets/);
+  background: url(assets/);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 header {
-    background: url(assets/sporlab-K2nfJ61PrbA-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: color;
-    background-position: center;
-    height: 95vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    opacity: 80%;
+  background: url(assets/sporlab-K2nfJ61PrbA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: color;
+  background-position: center;
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  opacity: 80%;
 }
 
 header h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 header p {
-    font-size: 22px;
+  font-size: 22px;
 }
