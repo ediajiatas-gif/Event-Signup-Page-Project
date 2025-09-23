@@ -1,28 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background: url(assets/);
   font-family: Georgia, "Times New Roman", Times, serif;
+  background: linear-gradient(white 20%, rgb(0, 149, 255));
 }
 
 header {
-  background: url(assets/sporlab-K2nfJ61PrbA-unsplash.jpg);
+  background: url(assets/cecep-rahmat-jLeznOrK3UQ-unsplash.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: color;
   background-position: center;
-  height: 95vh;
+  height: 100vh;
   width: 100%;
+  opacity: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
   text-align: center;
-  padding: 20px;
-  opacity: 80%;
 }
 
 header h1 {
   font-size: 50px;
+  opacity: 100%;
 }
 header p {
   font-size: 22px;
+  opacity: 100%;
 }
+/* Add IMG to Event Info Section */
