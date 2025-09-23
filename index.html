@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5k Charity Run</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>5K Charity Fun Run</h1>
+      <p>5K run to raise funds for local schools</p>
+    </header>
+    <section>
+      <h2>About the Charity Fun Run</h2>
+      <p>
+        Join us for a 5K Charity Fun Run dedicated to bringing the community
+        together for a great cause. Whether you’re a seasoned runner or just out
+        for some fun, this event is open to all ages and fitness levels. Every
+        step you take helps raise funds to support local schools and programs,
+        making a real difference in the lives of families in our community.
+      </p>
+    </section>
+    <main>
+      <h2>Sign up here!</h2>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="full-name">Full name:</label>
+        <input type="text" id="full-name" required />
+
+        <label for="email">Email Address:</label>
+        <input type="text" id="email" required />
+
+        <label for="cell">Phone Number:</label>
+        <input type="text" id="cell" required />
+      </fieldset>
+
+      <fieldset>
+        <legend>Other information</legend>
+        <div class="eventdatetime">
+        <label for="event-datetime">Event Date / Time Selection</label>
+        <input
+          type="datetime-local"
+          id="event-datetime"
+          name="event-datetime"required/> 
+        </div>
+
+        <div class="numberofguests">
+        <label for="guests">Number of Guests</label>
+        <input type="number" id="guests" required /> 
+        </div>
+
+        <div class="dropdown">
+        <label for="dropdownmenu">T-Shirt Size:</label>
+        <select name="shirt-size" id="dropdownmenu" required>
+          <option value="select size">select size</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+        </div>
+
+        <div class="comments">
+        <label for="comments">Special Requests / Comments:</label>
+        <textarea name="textarea" id="comments"></textarea>
+        </div>
+
+        <div class="agreeterms">
+        <label for="terms"
+          >By signing up, I agree to receive event updates and follow event
+          safety guidelines.</label>
+        <input type="checkbox" required />
+        </div>
+
+      </fieldset>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </main>
+    <footer>
+      <p>
+        © 2025 Charity Fun Run | Contact:
+        <a href="mailto:info@charityrun.org">info@charityrun.org</a> | Location:
+        Belmont City Park | Follow us on <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+      </p>
+    </footer>
+  </body>
+</html>
