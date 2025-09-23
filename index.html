@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>5k Charity Run</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -20,9 +20,23 @@
         step you take helps raise funds to support local schools and programs,
         making a real difference in the lives of families in our community.
       </p>
+
+      <h3>Date, Time, and Location:</h3>
+      <p>
+        📅 Saturday, October 4, 2025 ⏰ 9:00 AM – 12:00 PM 📍 Belmont City Park,
+        Belmont, CA
+      </p>
+      <h3>Event Highlights:</h3>
+      <ul>
+        <li>🏅 Free T-shirt for all participants</li>
+        <li>🎶 Live music and entertainment</li>
+        <li>🍎 Refreshments and food stands</li>
+        <li>🎉 Family-friendly activities and games</li>
+        <li>🎁 Raffle prizes for registered runners</li>
+      </ul>
     </section>
     <main>
-      <h2>Sign up here!</h2>
+      <h2>Sign-Up Form:</h2>
       <fieldset>
         <legend>Personal Information</legend>
         <label for="full-name">Full name:</label>
@@ -38,41 +52,43 @@
       <fieldset>
         <legend>Other information</legend>
         <div class="eventdatetime">
-        <label for="event-datetime">Event Date / Time Selection</label>
-        <input
-          type="datetime-local"
-          id="event-datetime"
-          name="event-datetime"required/> 
+          <label for="event-datetime">Event Date / Time Selection</label>
+          <input
+            type="datetime-local"
+            id="event-datetime"
+            name="event-datetime"
+            required
+          />
         </div>
 
         <div class="numberofguests">
-        <label for="guests">Number of Guests</label>
-        <input type="number" id="guests" required /> 
+          <label for="guests">Number of Guests</label>
+          <input type="number" id="guests" required />
         </div>
 
         <div class="dropdown">
-        <label for="dropdownmenu">T-Shirt Size:</label>
-        <select name="shirt-size" id="dropdownmenu" required>
-          <option value="select size">select size</option>
-          <option value="S">S</option>
-          <option value="M">M</option>
-          <option value="L">L</option>
-          <option value="XL">XL</option>
-        </select>
+          <label for="dropdownmenu">T-Shirt Size:</label>
+          <select name="shirt-size" id="dropdownmenu" required>
+            <option value="select size">select size</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+          </select>
         </div>
 
         <div class="comments">
-        <label for="comments">Special Requests / Comments:</label>
-        <textarea name="textarea" id="comments"></textarea>
+          <label for="comments">Special Requests / Comments:</label>
+          <textarea name="textarea" id="comments"></textarea>
         </div>
 
         <div class="agreeterms">
-        <label for="terms"
-          >By signing up, I agree to receive event updates and follow event
-          safety guidelines.</label>
-        <input type="checkbox" required />
+          <label for="terms"
+            >By signing up, I agree to receive event updates and follow event
+            safety guidelines.</label
+          >
+          <input type="checkbox" required />
         </div>
-
       </fieldset>
       <button type="submit">Submit</button>
       <button type="reset">Reset</button>
