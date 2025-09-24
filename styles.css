@@ -55,3 +55,15 @@ ul {
   text-align: center;
   list-style-position: inside;
 }
+
+.submit-button:hover{
+  cursor: pointer;
+}
+
+.reset-button:hover{
+  cursor: pointer;
+}
+
+.button:hover{
+    cursor: pointer;
+}
