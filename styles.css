@@ -31,27 +31,27 @@ header h1 {
 header p {
   font-size: 22px;
 }
-/* Add IMG to Event Info Section */
-.gallery{
+
+.gallery {
   display: flex;
   justify-content: space-evenly;
 }
 
-img{
+img {
   width: 450px;
   height: auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.full-content{
+.full-content {
   padding: 50px;
 }
 
-.form{
+.form {
   padding: 20px;
 }
 
-ul{
+ul {
   text-align: center;
-  list-style-position:inside ;
+  list-style-position: inside;
 }
