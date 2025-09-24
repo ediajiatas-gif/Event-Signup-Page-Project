@@ -5,7 +5,8 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  background: linear-gradient(white 20%, rgb(0, 149, 255));
+  background: linear-gradient(rgb(0, 115, 255), white);
+  text-align: center;
 }
 
 header {
@@ -33,3 +34,20 @@ header p {
   opacity: 100%;
 }
 /* Add IMG to Event Info Section */
+.gallery{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img{
+  width: 450px;
+  height: auto;
+}
+
+.full-content{
+  padding: 50px;
+}
+
+.form{
+  padding: 20px;
+}
